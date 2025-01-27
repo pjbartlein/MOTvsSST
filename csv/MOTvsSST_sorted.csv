@@ -1,0 +1,94 @@
+﻿Model,SST_norm ,MOT_norm ,obs_num
+iCESM,-3.8,-3.46,1
+IPSL-CM5A-LR,-2.25,-1.26,2
+MRI-CGCM3,-2.15,-1.9,3
+Galbraith CM2Mc.v2,-2.07,-2.36,4
+GISS-E2-R,-2.07,-1.57,5
+CCSM4,-2.02,-1.93,6
+Galbraith CM2Mc.v2,-1.79,-2.31,7
+Galbraith CM2Mc.v2,-1.78,-2.39,8
+MPI-ESM-P,-1.62,-1.91,9
+MIROC-ESM,-1.59,-1.77,10
+Galbraith CM2Mc.v2,-1.58,-1.38,11
+Galbraith CM2Mc.v2,-1.52,-2.31,12
+GENMOM,-1.39,-1.19,13
+Galbraith CM2Mc.v2,-1.39,-1.39,14
+GENMOM,-1.38,-1.11,15
+Galbraith CM2Mc.v2,-1.36,-1.01,16
+Galbraith CM2Mc.v2,-1.25,-2.19,17
+Galbraith CM2Mc.v2,-1.19,-1.97,18
+Galbraith CM2Mc.v2,-1.18,-2.07,19
+Galbraith CM2Mc.v2,-0.99,-1.15,20
+GENMOM,-0.91,-0.57,21
+Galbraith CM2Mc.v2,-0.86,-0.92,22
+Galbraith CM2Mc.v2,-0.78,-0.99,23
+Galbraith CM2Mc.v2,-0.67,-1.52,24
+Galbraith CM2Mc.v2,-0.66,-0.87,25
+CNRM-CM5,-0.58,-0.91,26
+GENMOM,-0.49,-0.18,27
+GENMOM,-0.45,-0.25,28
+Galbraith CM2Mc.v2,-0.29,-0.14,29
+GENMOM,-0.21,-0.05,30
+GENMOM,-0.2,-0.1,31
+Uvic 2.9,0,0,32
+Uvic 2.9,0.53,0.59,33
+Galbraith,0.77,0.69,34
+Galbraith,0.94,1.51,35
+Galbraith,1.08,1.31,36
+PLIOMIP2 14,1.23,1.29,37
+Galbraith,1.27,1.8,38
+PLIOMIP2 9,1.47,0.75,39
+PLIOMIP2 1,1.5,1.45,40
+PLIOMIP2 8,1.53,0.86,41
+PLIOMIP2 5,1.75,1.44,42
+PLIOMIP2 13,1.75,2.22,43
+Uvic 2.9,1.98,1.53,44
+PLIOMIP2 12,2.03,1.65,45
+PLIOMIP2 11,2.06,1.42,46
+PLIOMIP2 10,2.42,2.17,47
+giss surface average (4.5-5 ka),2.45,2.19,48
+PLIOMIP2 3,2.52,2.6,49
+PLIOMIP2 6,2.89,2.24,50
+HadCM_highres,3.09,2.35,51
+COSMOS,3.12,0.52,52
+HadCM_lowres,3.28,1.88,53
+Uvic 2.9,3.33,2.65,54
+cesm surface average (5.4-5.9 ka),3.33,2.92,55
+MIROC,3.37,0.51,56
+PLIOMIP2 2,3.45,1.8,57
+mpilr surface average (3.9-4.4 ka),3.46,2.51,58
+PLIOMIP2 4,3.5,3.61,59
+PLIOMIP2 15,3.77,1.4,60
+GFDL,3.91,2.51,61
+PLIOMIP2 7,3.98,2.78,62
+CESM,4.31,4.96,63
+Uvic 2.9,4.57,4.35,64
+Galbraith CM2Mc.v2,5.29,2.32,65
+Galbraith CM2Mc.v2,5.46,2.49,66
+Galbraith CM2Mc.v2,5.51,2.54,67
+Uvic 2.9,5.63,6.07,68
+Galbraith CM2Mc.v2,5.66,2.69,69
+echam surface average (5.5-6.1 ka),5.66,4.33,70
+IPSL,5.92,3.36,71
+HadCM_highres,6.15,5.58,72
+NorESM,6.15,8.12,73
+Galbraith CM2Mc.v2,6.51,3.54,74
+Galbraith CM2Mc.v2,6.56,3.59,75
+HadCM_lowres,6.62,6.17,76
+MIROC,6.67,3.92,77
+Galbraith CM2Mc.v2,6.8,3.83,78
+Galbraith CM2Mc.v2,6.84,3.87,79
+GFDL,6.93,6.33,80
+NorESM,8.28,9.92,81
+GFDL,8.95,9.33,82
+HadCM_highres,9.25,9.44,83
+MIROC,9.27,6.63,84
+COSMOS,9.72,7.91,85
+CESM,9.75,10.11,86
+HadCM_lowres,10.5,10.49,87
+IPSL,10.62,8.65,88
+GFDL,10.71,11.52,89
+COSMOS,11.04,9.81,90
+GFDL,13.03,14.58,91
+CESM,13.58,16.05,92
+CESM,18.34,17.4,93
