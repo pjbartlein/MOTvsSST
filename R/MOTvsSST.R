@@ -33,7 +33,7 @@ plot(dMOT ~ dSST, ylim = ylim, xlim = xlim, ylab = MOT_label, xlab = SST_label, 
 
 # Model 1: basic linear trend =====================================================================
 
-lm1 <- lm(dMOT ~ dSST, data = ocean_temps)
+lm1 <- lm(dMOT ~ dSST)
 AIC_lm1 <- round(AIC(lm1), 2)
 summary(lm1)
 AIC_lm1
@@ -82,7 +82,6 @@ dev.print(pdf, paste(plotpath, "linear_residual_plot.pdf", sep = ""))
 # residual plot data
 linear_residuals_out <- data.frame(cbind(lm1$fitted, lm1$residuals, lm1$fitted, lo_lm1_resid$fitted))
 names(linear_residuals_out) <- c("linear_fitted", "linear_residuals", "smoothed_x", "smoothed_y")
-
 out_csv <- "linear_residual_plot.csv"
 write.csv(linear_residuals_out, paste(csv_path, out_csv, sep = ""), row.names = FALSE)
 
@@ -91,14 +90,12 @@ write.csv(linear_residuals_out, paste(csv_path, out_csv, sep = ""), row.names = 
 lm1_cook <- cooks.distance(lm1)
 plot(lm1, which = c(4))
 
-# linear_residual_diagnostics_v05
+# linear_residual_diagnostics
 linear_residual_diagnostics_out <- data.frame(cbind(dSST, dMOT, lm1$fitted, lm1$residuals, lm1_cook, obs_num, Model))
 names(linear_residual_diagnostics_out) <- c("dSST", "dMOT, linear_fitted", "linear_fitted", 
                                             "linear_residuals", "cooks_distance", "obs_num", "Model")
-
-out_path <- "/Users/bartlein/Dropbox/WorkCurrent/globalT/paper2/MOTvsSST/v05/"
-out_csv <- "linear_residual_diagnostics_v05.csv"
-write.csv(linear_residual_diagnostics_out, paste(out_path, out_csv, sep = ""), row.names = FALSE)
+out_csv <- "linear_residual_diagnostics.csv"
+write.csv(linear_residual_diagnostics_out, paste(csv_path, out_csv, sep = ""), row.names = FALSE)
 
 # Model 2: lowess =============================================================
 
